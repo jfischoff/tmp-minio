@@ -1,1 +1,6 @@
-{-# OPTIONS_GHC -F -pgmF hspec-discover #-}
+import qualified Tests.Minio.TemporarySpec as T
+import Test.Hspec
+
+main :: IO ()
+main = hspec $ do
+  T.spec

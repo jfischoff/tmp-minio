@@ -4,16 +4,16 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: b5bdf8abde32f1cf9e49db3d674c24b0e5999dd5d074c1e5dad45533bb4f54bd
+-- hash: 3fb911c5f62945b80910d8279f2499d4460404fb8bcc07309bc7661559b6ae98
 
 name:           tmp-minio
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/githubuser/tmp-minio#readme>
-homepage:       https://github.com/githubuser/tmp-minio#readme
-bug-reports:    https://github.com/githubuser/tmp-minio/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2020 Author name here
+homepage:       https://github.com/jfischoff/tmp-minio#readme
+bug-reports:    https://github.com/jfischoff/tmp-minio/issues
+author:         Jonathan Fischoff, Lane Seppala
+maintainer:     Jonathan.G.Fischoff@gmail.com
+copyright:      2020 Jonathan Fischoff, Lane Seppala
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -23,7 +23,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/tmp-minio
+  location: https://github.com/jfischoff/tmp-minio
 
 library
   exposed-modules:
@@ -60,6 +60,5 @@ test-suite tmp-minio-test
   build-depends:
       base >=4.7 && <5
     , hspec
-    , hspec-discover
     , tmp-minio
   default-language: Haskell2010
