@@ -4,11 +4,13 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 3fb911c5f62945b80910d8279f2499d4460404fb8bcc07309bc7661559b6ae98
+-- hash: 55677dfc94fc4bb5710427742ebc6a07f36d056282c8d0f4e9debb8ad28a2ea4
 
 name:           tmp-minio
 version:        0.1.0.0
+synopsis:       A temporary minio
 description:    Please see the README on GitHub at <https://github.com/githubuser/tmp-minio#readme>
+category:       Network
 homepage:       https://github.com/jfischoff/tmp-minio#readme
 bug-reports:    https://github.com/jfischoff/tmp-minio/issues
 author:         Jonathan Fischoff, Lane Seppala
@@ -16,6 +18,7 @@ maintainer:     Jonathan.G.Fischoff@gmail.com
 copyright:      2020 Jonathan Fischoff, Lane Seppala
 license:        BSD3
 license-file:   LICENSE
+tested-with:    GHC ==8.8.2
 build-type:     Simple
 extra-source-files:
     README.md

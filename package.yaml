@@ -7,6 +7,7 @@ maintainer:          "Jonathan.G.Fischoff@gmail.com"
 copyright:           "2020 Jonathan Fischoff, Lane Seppala"
 category: Network
 synopsis: A temporary minio
+tested-with: GHC ==8.8.2
 
 extra-source-files:
 - README.md
