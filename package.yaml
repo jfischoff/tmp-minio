@@ -5,6 +5,8 @@ license:             BSD3
 author:              "Jonathan Fischoff, Lane Seppala"
 maintainer:          "Jonathan.G.Fischoff@gmail.com"
 copyright:           "2020 Jonathan Fischoff, Lane Seppala"
+category: Network
+synopsis: A temporary minio
 
 extra-source-files:
 - README.md
