@@ -48,3 +48,4 @@ tests:
     - tmp-minio
     - hspec
     - hspec-discover
+    build-tool-depends: hspec-discover:hspec-discover
