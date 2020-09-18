@@ -1,10 +1,13 @@
 name:                tmp-minio
 version:             0.1.0.0
-github:              "githubuser/tmp-minio"
+github:              "jfischoff/tmp-minio"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2020 Author name here"
+author:              "Jonathan Fischoff, Lane Seppala"
+maintainer:          "Jonathan.G.Fischoff@gmail.com"
+copyright:           "2020 Jonathan Fischoff, Lane Seppala"
+category: Network
+synopsis: A temporary minio
+tested-with: GHC ==8.8.2
 
 extra-source-files:
 - README.md
@@ -46,3 +49,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - tmp-minio
+    - hspec

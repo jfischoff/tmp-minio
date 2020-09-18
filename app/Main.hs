@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import Minio.Temporary
 
 main :: IO ()
-main = someFunc
+main = pure ()

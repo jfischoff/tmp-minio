@@ -1,2 +1,6 @@
+import qualified Tests.Minio.TemporarySpec as T
+import Test.Hspec
+
 main :: IO ()
-main = putStrLn "Test suite not yet implemented"
+main = hspec $ do
+  T.spec

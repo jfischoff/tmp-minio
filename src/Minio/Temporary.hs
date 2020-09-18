@@ -1,0 +1,1 @@
+module Minio.Temporary where
